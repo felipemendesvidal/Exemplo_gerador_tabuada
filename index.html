@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gerador de tabuada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    
+    <main class="box-container-blue" id="fundo">
+        <header class="cabecalho">
+            <h1>Tabuada</h1>
+        </header>
+        <section class="box-principal-conteudo">
+            <div class="msg" id="campo-msg">
+                <P id="paragrafo_label">Numero:  <input type="number" name="numero_tabuada" id="numero_tabuada" placeholder="digite um numero aqui"> <input type="button" value="gerar tabuada" onclick="gerar_tabuada()" id="btn-calcular"></P>
+
+                
+
+            </div>
+            <div class="foto" id="resultado">
+                <select name="tabuada" id="select_da_tabuada" size="11">
+                    <option>Digite um numero, para saber a tabuada 1 ao 100.</option>
+
+
+                </select>
+            </div>
+        </section>
+        <footer class="foodi">
+            <p>&copy; felipe vidal </p>
+        </footer>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
